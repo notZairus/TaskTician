@@ -75,4 +75,11 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+        If Guna2TextBox2.PasswordChar <> "*" Then
+            Guna2TextBox2.PasswordChar = "*"
+        Else
+            Guna2TextBox2.PasswordChar = ""
+        End If
+    End Sub
 End Class

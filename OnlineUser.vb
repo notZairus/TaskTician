@@ -31,14 +31,14 @@
     'USER TEAMS
 
     Public Property Teams As New List(Of Team)
-
     Public Property OwnTeams As New List(Of Team)
     Public Property MemOfTeams As New List(Of Team)
 
-    'OPEN GROUP
-    'OPEN GROUP
-    'OPEN GROUP
+    'OPEN TEAM
+    'OPEN TEAM
+    'OPEN TEAM
 
     Public Property OG_ID_GroupName As String
+    Public Property OG_Index As Integer
 
 End Module

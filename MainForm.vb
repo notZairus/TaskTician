@@ -1053,6 +1053,13 @@ Public Class MainForm
                     Label10.Text = reader("GroupName") + "'s Chat"
                     FlowTeamTasks.Tag = reader("GID")
                     OG_ID_GroupName = reader("ID_GroupName")
+
+                    If TypeOf sender Is Guna2Panel Then
+                        OG_Index = FlowTeams.Controls.IndexOf(sender)
+                    Else
+                        OG_Index = FlowTeams.Controls.IndexOf(sender.parent)
+                    End If
+
                     FlowLayoutPanel3.Tag = reader("GID")
                     Guna2CircleButton1.Tag = reader("GID")
 
@@ -1060,11 +1067,13 @@ Public Class MainForm
 
                         Guna2Button20.Visible = True
                         Guna2CircleButton1.Visible = True
+                        Guna2Button22.Visible = True
 
                     Else
 
                         Guna2Button20.Visible = False
                         Guna2CircleButton1.Visible = False
+                        Guna2Button22.Visible = False
 
                     End If
 
@@ -1672,6 +1681,100 @@ Public Class MainForm
             End If
 
         Next
+
+    End Sub
+
+    Private Sub Guna2Button22_Click(sender As Object, e As EventArgs) Handles Guna2Button22.Click
+
+        Dim password As String
+
+        Using conn As New MySqlConnection(Connections.connString)
+
+            conn.Open()
+
+            Using cmd As New MySqlCommand("SELECT PW FROM user_tbl WHERE UID = @UID", conn)
+
+                cmd.Parameters.AddWithValue("@UID", OnlineUser.UID)
+
+                Dim reader = cmd.ExecuteReader()
+
+                While (reader.Read)
+
+                    password = reader("PW").ToString()
+
+                End While
+
+                reader.Close()
+
+            End Using
+
+            conn.Close()
+
+        End Using
+
+        If (InputBox("Enter your password:", "Confirmation") = password) Then
+
+            For Each team In OwnTeams
+
+                If (team.ID_GroupName = OG_ID_GroupName) Then
+
+                    OwnTeams.Remove(team)
+                    Exit For
+
+                End If
+
+            Next
+
+            For Each team In Teams
+
+                If (team.ID_GroupName = OG_ID_GroupName) Then
+
+                    OwnTeams.Remove(team)
+                    Exit For
+
+                End If
+
+            Next
+
+            Using conn As New MySqlConnection(Connections.connString)
+
+                conn.Open()
+
+                Using cmd As New MySqlCommand("DELETE FROM group_tbl WHERE ID_GroupName = @ID_GN", conn)
+
+                    cmd.Parameters.AddWithValue("@ID_GN", OG_ID_GroupName)
+
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
+                conn.Close()
+
+            End Using
+
+            Using conn As New MySqlConnection(Connections.teamConnString)
+
+                conn.Open()
+
+                Using cmd As New MySqlCommand("DROP TABLE " + OG_ID_GroupName + "_chat, " + OG_ID_GroupName + "_task", conn)
+
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
+                conn.Close()
+
+            End Using
+
+            FlowTeams.Controls.RemoveAt(OG_Index)
+            Open_Team(FlowTeams.Controls.Item(0), e)
+
+            OG_Index = -1
+            OG_ID_GroupName = ""
+
+        Else
+            MessageBox.Show("Invalid Password.")
+        End If
 
     End Sub
 

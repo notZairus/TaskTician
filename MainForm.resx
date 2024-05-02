@@ -117,6 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Guna2Button11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAA5JJREFUeF7t3UtrE2EYxfF2UdtCdVepKC6UKgoWRFBBP4a1FT+AuHUrCt0oiOva
+        Vl26kaKfQFEXVkTEy1JXikIVsd7rNf5P8wSySELT5p1JM+cHB0ps87xz0iaTzCR2mZmZmZmZmZmZtZtS
+        qbSBHCOXyUPyjvyK6GtdNkPGyfr4MVstytxBrpJvZLn0vVfIcFyNNYvy+slF8puslP46LpC+uFpbDgob
+        Js9Jq8yRTXH11ghF7SW6T2+112QkxlgtFKTf/BTlV+hGGIpxVo1i+sgTtZTYI9IfY62CUvSAm5WJGGtC
+        IdrVXM3eTrO+EN8VVVCG9vOzNhnji40i9Ay3mSdZrfKV+BkzJejlhbyMxTKKixL02k5epmMZxUUJehEt
+        L3OxjOKihPflLnIxH8soLkr4We4iF4uxjOKiBN8AeaIE3wXliRL8IJwnStBhxLxMxTKKixJ0DDcvo7GM
+        4qKEAaKXBbKmmQOxjGKjCB1Az9pMjDfK0JEwHUDPinZ9t8V4EwrR2QtZOR9jrYJSdEhSZy+kdp/0xlir
+        RjFD5JVaSuQN2RzjrBYKGiE6e6HVdMPuiTHWCEUNkrtqrUV0t+NjwM2gsF4yQVbzHEF7O+eI7/NXivL0
+        uDBJmrkh9L3TxLuarUKZesY8RqbIAzJP9Buu6GtddokcJX6Ga2ZmZmZmZmZmtlyl8jtn9hGdN3SWXCO3
+        id7l+JLo7ayLEX2ty/Rvt4i+Vz+jn9V1+J0wjVBQDzlATpGbRIcOW03XqevWDM3qifHFw8Z3k/1EB1z0
+        W53He8Q0U7O1Bq2lO5bXmbSB5DDRa/ZvSbvRX4jWdoh0zo3Bxmwkp8kLslZorVrzYGzG2sPidxO9//cH
+        Wau0dp02uSs2q/2x2K1Ex2P/kE7xl1wn22Mz2w+LW0e066fdwk6lbTtD2msPigXpZKpWfsBSu3tG2uMk
+        LxYySvI4vz9v+sCPI1FDPljASfJPqykobfuJqCNbDD5O9OBUdOpgPGrJBgP1+T7fNd2WqIvsPiKTYfeW
+        xlq1O1FPWgzSU3Wr7WDUlA5D8vx4mXaX/uNvGPK0PMtqeBw1pcOQhfIsq+Fj1JRODLI6oqZ0Yo7VETWl
+        E3OsjqgpnZhjdURN6cQcqyNqSifmWB1RUzrM+FweZTUsRE3pMORGeZbVMBs1pcOQneTD0jirpk6yeUWU
+        QVuIDlJ/IkWnDmaJ/8cmMzMzMzMzMzNroKvrPwZTOeAfGNkLAAAAAElFTkSuQmCC
+</value>
+  </data>
   <metadata name="Guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
