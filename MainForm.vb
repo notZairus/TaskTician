@@ -538,9 +538,9 @@ Public Class MainForm
 
                 conn.Close()
 
-                End Using
+            End Using
 
-                FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent) + 1)
+            FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent) + 1)
             FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent))
 
         Else
@@ -1388,7 +1388,29 @@ Public Class MainForm
 
                 End Using
 
-            Else
+                Using conn As New MySqlConnection(Connections.connString)
+
+                    conn.Open()
+
+                    Using cmd As New MySqlCommand("UPDATE group_tbl SET CompletedTask = CompletedTask + 1 WHERE ID_GroupName = @ID_GroupName", conn)
+
+                        cmd.Parameters.AddWithValue("@ID_GroupName", OG_ID_GroupName)
+                        cmd.ExecuteNonQuery()
+
+                    End Using
+
+                    Using cmd As New MySqlCommand("UPDATE group_tbl SET Progress = TotalTask / CompletedTask * 100 WHERE ID_GroupName = @ID_GroupName", conn)
+
+                        cmd.Parameters.AddWithValue("@ID_GroupName", OG_ID_GroupName)
+                        cmd.ExecuteNonQuery()
+
+                    End Using
+
+                    conn.Close()
+
+                    End Using
+
+                    Else
 
                 chkbx.Checked = False
 

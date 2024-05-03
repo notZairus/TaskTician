@@ -152,7 +152,7 @@ Public Class CreateTeamForm
 
             conn.Open()
 
-            Using cmd As New MySqlCommand("INSERT INTO group_tbl(GroupName, OwnerID, GroupMembers, DateCreated, ID_GroupName, TotalTask, CompletedTask) VALUES (@GroupName, @OwnerID, @GroupMembers, @DateCreated, @ID_GroupName, @TotalTask, @CompletedTask)", conn)
+            Using cmd As New MySqlCommand("INSERT INTO group_tbl(GroupName, OwnerID, GroupMembers, DateCreated, ID_GroupName, TotalTask, CompletedTask, Progress) VALUES (@GroupName, @OwnerID, @GroupMembers, @DateCreated, @ID_GroupName, @TotalTask, @CompletedTask, @Progress)", conn)
 
                 cmd.Parameters.AddWithValue("@GroupName", Guna2TextBox1.Text)
                 cmd.Parameters.AddWithValue("@OwnerID", OnlineUser.UID)
@@ -161,8 +161,7 @@ Public Class CreateTeamForm
                 cmd.Parameters.AddWithValue("@ID_GroupName", OnlineUser.UserName + Guna2TextBox1.Text)
                 cmd.Parameters.AddWithValue("@TotalTask", 0)
                 cmd.Parameters.AddWithValue("@CompletedTask", 0)
-
-
+                cmd.Parameters.AddWithValue("@Progress", 0.00)
                 cmd.ExecuteNonQuery()
 
             End Using

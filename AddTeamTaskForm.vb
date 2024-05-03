@@ -1,4 +1,5 @@
-﻿Imports Guna.UI2.WinForms
+﻿Imports System.Runtime.CompilerServices
+Imports Guna.UI2.WinForms
 Imports K4os.Compression.LZ4.Internal
 Imports MySql.Data.MySqlClient
 
@@ -11,7 +12,7 @@ Public Class AddTeamTaskForm
 
     Private Sub AddTeamTaskForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        memlist.Clear()
+        memList.Clear()
 
         Using conn As New MySqlConnection(Connections.connString)
 
@@ -31,7 +32,7 @@ Public Class AddTeamTaskForm
 
                     For Each mem In memstring
 
-                        memlist.Add(Val(mem))
+                        memList.Add(Val(mem))
 
                     Next
 
@@ -63,7 +64,7 @@ Public Class AddTeamTaskForm
 
             End Using
 
-            For Each mem In memlist
+            For Each mem In memList
 
                 Using cmd As New MySqlCommand("SELECT * FROM user_tbl WHERE UID = @UID", conn)
 
@@ -158,6 +159,28 @@ Public Class AddTeamTaskForm
                     cmd.Parameters.AddWithValue("@TaskStatus", "Pending")
                     cmd.Parameters.AddWithValue("@TaskDeadline", Guna2DateTimePicker1.Value.Date)
 
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
+                conn.Close()
+
+            End Using
+
+            Using conn As New MySqlConnection(Connections.connString)
+
+                conn.Open()
+
+                Using cmd As New MySqlCommand("UPDATE group_tbl SET TotalTask = TotalTask + 1 WHERE ID_GroupName = @ID_GroupName", conn)
+
+                    cmd.Parameters.AddWithValue("@ID_GroupName", ID_GroupName)
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
+                Using cmd As New MySqlCommand("UPDATE group_tbl SET Progress = CompletedTask / TotalTask * 100 WHERE ID_GroupName = @ID_GroupName", conn)
+
+                    cmd.Parameters.AddWithValue("@ID_GroupName", ID_GroupName)
                     cmd.ExecuteNonQuery()
 
                 End Using

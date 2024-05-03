@@ -159,7 +159,6 @@ Partial Class MainForm
         Guna2Button17 = New Guna.UI2.WinForms.Guna2Button()
         Label7 = New Label()
         Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(components)
-        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         CType(Guna2CirclePictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel1.SuspendLayout()
         friendoptionspanel.SuspendLayout()
@@ -1297,7 +1296,6 @@ Partial Class MainForm
     Friend WithEvents Label8 As Label
     Friend WithEvents FlowTeamTasks As FlowLayoutPanel
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents Guna2Button20 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
     Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
