@@ -38,6 +38,13 @@ Public Class AddTaskForm
 
                 End Using
 
+                Using cmd As New MySqlCommand("UPDATE user_tbl SET TotalTask = TotalTask + 1 WHERE UID = @UID", conn)
+
+                    cmd.Parameters.AddWithValue("@UID", OnlineUser.UID)
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
                 conn.Close()
                 MessageBox.Show("TASK ADDED SUCCESSFULLY!")
                 Close()

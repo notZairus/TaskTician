@@ -32,8 +32,8 @@ Public Class RegistrationForm
 
             Using conn As New MySqlConnection(Connections.connString)
 
-                Dim qry As String = "INSERT INTO user_tbl(UN, PW, ImageData, FirstName, MiddleName, LastName, Email, Friends) 
-                                    VALUES (@UN, @PW, @ImageData, @FirstName, @MiddleName, @LastName, @Email, @Friends)"
+                Dim qry As String = "INSERT INTO user_tbl(UN, PW, ImageData, FirstName, MiddleName, LastName, Email, Friends, TotalTask, CompletedTask, FailedTask) 
+                                    VALUES (@UN, @PW, @ImageData, @FirstName, @MiddleName, @LastName, @Email, @Friends, @TotalTask, @CompletedTask, @FailedTask)"
 
                 conn.Open()
 
@@ -47,6 +47,9 @@ Public Class RegistrationForm
                     cmd.Parameters.AddWithValue("@LastName", Guna2TextBox6.Text)
                     cmd.Parameters.AddWithValue("@Email", Guna2TextBox7.Text)
                     cmd.Parameters.AddWithValue("@Friends", "^")
+                    cmd.Parameters.AddWithValue("@TotalTask", 0)
+                    cmd.Parameters.AddWithValue("@CompletedTask", 0)
+                    cmd.Parameters.AddWithValue("@FailedTask", 0)
                     cmd.ExecuteNonQuery()
 
                 End Using

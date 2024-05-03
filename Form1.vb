@@ -43,6 +43,9 @@ Public Class Form1
                             OnlineUser.MiddleName = reader("MiddleName").ToString()
                             OnlineUser.LastName = reader("LastName").ToString()
                             OnlineUser.stringFriends = reader("Friends").ToString()
+                            OnlineUser.TotalTask = Val(reader("TotalTask"))
+                            OnlineUser.CompletedTask = Val(reader("CompletedTask"))
+                            OnlineUser.FailedTask = Val(reader("FailedTask"))
                             Get_Friends(reader("Friends").ToString())
 
                             Dim mainForm As New MainForm()

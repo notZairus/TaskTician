@@ -13,6 +13,9 @@
     Public Property LastName As String
     Public Property Friends As New List(Of Integer)
     Public Property stringFriends As String
+    Public Property TotalTask As Integer
+    Public Property CompletedTask As Integer
+    Public Property FailedTask As Integer
 
 
     'USER TASKS

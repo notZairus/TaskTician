@@ -285,6 +285,13 @@ Public Class MainForm
 
                         End Using
 
+                        Using cmd As New MySqlCommand("UPDATE user_tbl SET FailedTask = FailedTask + 1 WHERE UID = @UID", conn)
+
+                            cmd.Parameters.AddWithValue("@UID", OnlineUser.UID)
+                            cmd.ExecuteNonQuery()
+
+                        End Using
+
                         conn.Close()
 
                     End Using
@@ -513,20 +520,27 @@ Public Class MainForm
 
                 conn.Open()
 
-                Using cmd2 As New MySqlCommand("UPDATE personaltask_tbl SET TaskStatus = @TaskStatus WHERE TID = @TID", conn)
+                Using cmd As New MySqlCommand("UPDATE personaltask_tbl SET TaskStatus = @TaskStatus WHERE TID = @TID", conn)
 
-                    cmd2.Parameters.AddWithValue("@TaskStatus", "Completed")
-                    cmd2.Parameters.AddWithValue("@TID", checkbox.Parent.Tag)
+                    cmd.Parameters.AddWithValue("@TaskStatus", "Completed")
+                    cmd.Parameters.AddWithValue("@TID", checkbox.Parent.Tag)
 
-                    cmd2.ExecuteNonQuery()
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
+                Using cmd As New MySqlCommand("UPDATE user_tbl SET CompletedTask = CompletedTask + 1 WHERE UID = @UID", conn)
+
+                    cmd.Parameters.AddWithValue("@UID", OnlineUser.UID)
+                    cmd.ExecuteNonQuery()
 
                 End Using
 
                 conn.Close()
 
-            End Using
+                End Using
 
-            FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent) + 1)
+                FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent) + 1)
             FlowLayoutPanel1.Controls.RemoveAt(FlowLayoutPanel1.Controls.IndexOf(checkbox.Parent))
 
         Else
