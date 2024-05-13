@@ -79,9 +79,9 @@ Partial Class DeleteMutualsForm
         Label2.Font = New Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(123, 11)
         Label2.Name = "Label2"
-        Label2.Size = New Size(310, 54)
+        Label2.Size = New Size(323, 54)
         Label2.TabIndex = 41
-        Label2.Text = "Delete Mutuals"
+        Label2.Text = "Remove Friends"
         ' 
         ' FlowLayoutPanel1
         ' 

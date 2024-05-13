@@ -20,11 +20,9 @@ Public Class Form1
 
         Using conn As New MySqlConnection(Connections.connString)
 
-            Dim qry As String = "SELECT * FROM user_tbl WHERE UN = @UN"
-
             conn.Open()
 
-            Using cmd As New MySqlCommand(qry, conn)
+            Using cmd As New MySqlCommand("SELECT * FROM user_tbl WHERE UN = @UN", conn)
 
                 cmd.Parameters.AddWithValue("@UN", Guna2TextBox1.Text)
 

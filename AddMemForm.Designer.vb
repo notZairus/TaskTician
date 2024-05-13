@@ -71,9 +71,9 @@ Partial Class AddMemForm
         Label2.Font = New Font("Segoe UI", 25F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(160, 24)
         Label2.Name = "Label2"
-        Label2.Size = New Size(151, 46)
+        Label2.Size = New Size(137, 46)
         Label2.TabIndex = 48
-        Label2.Text = "Mutuals"
+        Label2.Text = "Friends"
         ' 
         ' FlowLayoutPanel1
         ' 

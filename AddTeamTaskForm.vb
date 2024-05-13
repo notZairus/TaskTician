@@ -163,6 +163,16 @@ Public Class AddTeamTaskForm
 
                 End Using
 
+                Using cmd As New MySqlCommand("INSERT INTO " + OG_ID_GroupName + "_chat (Message, Sender, MessageDate) VALUES (@Message, @Sender, @MessageDate)", conn)
+
+                    cmd.Parameters.AddWithValue("@Message", OnlineUser.UserName + " created a new Task!")
+                    cmd.Parameters.AddWithValue("@Sender", OnlineUser.UID)
+                    cmd.Parameters.AddWithValue("@MessageDate", DateTime.Now())
+
+                    cmd.ExecuteNonQuery()
+
+                End Using
+
                 conn.Close()
 
             End Using

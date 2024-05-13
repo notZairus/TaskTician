@@ -147,11 +147,8 @@ Public Class MainForm
 
         Guna2Button11.Checked = True
         Guna2Button12.Checked = False
-        Guna2Button13.Checked = False
 
         PersonalPanel.BringToFront()
-        friendoptionspanel.Enabled = False
-        friendoptionspanel.Visible = False
 
     End Sub
 
@@ -159,23 +156,8 @@ Public Class MainForm
 
         Guna2Button11.Checked = False
         Guna2Button12.Checked = True
-        Guna2Button13.Checked = False
 
         TeamsPanel.BringToFront()
-        friendoptionspanel.Enabled = True
-        friendoptionspanel.Visible = True
-
-    End Sub
-
-    Private Sub Guna2Button13_Click(sender As Object, e As EventArgs) Handles Guna2Button13.Click
-
-        Guna2Button11.Checked = False
-        Guna2Button12.Checked = False
-        Guna2Button13.Checked = True
-
-
-        friendoptionspanel.Enabled = False
-        friendoptionspanel.Visible = False
 
     End Sub
 
@@ -753,6 +735,9 @@ Public Class MainForm
                     team.GID = Val(reader("GID"))
                     team.GroupName = reader("GroupName").ToString()
                     team.OwnerID = Val(reader("OwnerID"))
+                    team.TotalTask = Val(reader("TotalTask"))
+                    team.CompletedTask = Val(reader("CompletedTask"))
+                    team.Progress = Val(reader("Progress"))
 
                     For Each mem In Split(reader("GroupMembers").ToString, ",")
                         team.GroupMembers.Add(Val(mem))
@@ -787,6 +772,9 @@ Public Class MainForm
 
                     team.DateCreated = DirectCast(reader("DateCreated"), Date)
                     team.ID_GroupName = reader("ID_GroupName")
+                    team.TotalTask = Val(reader("TotalTask"))
+                    team.CompletedTask = Val(reader("CompletedTask"))
+                    team.Progress = Val(reader("Progress"))
 
                     Dim members As New List(Of String)(Split(reader("GroupMembers"), ","))
 
@@ -836,6 +824,33 @@ Public Class MainForm
             lbl.Tag = team.GID
             AddHandler lbl.Click, AddressOf Open_Team
             panel.Controls.Add(lbl)
+
+            Dim progressBarHolder As New Guna2Panel()
+            progressBarHolder.Size = New Size(260, 10)
+            progressBarHolder.FillColor = Color.FromArgb(230 - 24, 187 - 24, 24 - 24)
+            progressBarHolder.BorderRadius = 5
+            progressBarHolder.Location = New Point(10, 110)
+            AddHandler progressBarHolder.Click, AddressOf Open_Team
+            panel.Controls.Add(progressBarHolder)
+
+            Dim progressBar As New Guna2Panel()
+            progressBar.Size = New Size(team.Progress / 100 * 260, 10)
+            progressBar.FillColor = Color.FromArgb(39, 39, 39)
+            progressBar.BorderRadius = 5
+            AddHandler progressBar.Click, AddressOf Open_Team
+            progressBarHolder.Controls.Add(progressBar)
+
+            Dim progress As New Label()
+            progress.Text = (team.Progress / 100 * 100).ToString("0") + "%"
+            progress.Location = New Point(272, 97)
+            progress.BackColor = Color.Transparent
+            progress.ForeColor = Color.FromArgb(39, 39, 39)
+            progress.Font = New Font("Segoe UI", 16, FontStyle.Bold)
+            progress.BackColor = Color.Transparent
+            progress.AutoSize = True
+            progress.Tag = team.GID
+            AddHandler lbl.Click, AddressOf Open_Team
+            panel.Controls.Add(progress)
 
             Dim x As Integer = 10
 
@@ -934,6 +949,34 @@ Public Class MainForm
             lbl.Tag = team.GID
             AddHandler lbl.Click, AddressOf Open_Team
             panel.Controls.Add(lbl)
+
+            Dim progressBarHolder As New Guna2Panel()
+            progressBarHolder.Size = New Size(260, 10)
+            progressBarHolder.FillColor = Color.FromArgb(0, 0, 0)
+            progressBarHolder.BorderRadius = 5
+            progressBarHolder.Location = New Point(10, 110)
+            AddHandler progressBarHolder.Click, AddressOf Open_Team
+            panel.Controls.Add(progressBarHolder)
+
+            Dim progressBar As New Guna2Panel()
+            progressBar.Size = New Size(team.Progress / 100 * 260, 10)
+            progressBar.FillColor = Color.FromArgb(250, 187, 24)
+            progressBar.BorderRadius = 5
+            AddHandler progressBar.Click, AddressOf Open_Team
+            progressBarHolder.Controls.Add(progressBar)
+
+            Dim progress As New Label()
+            progress.Text = (team.Progress / 100 * 100).ToString("0") + "%"
+            progress.Location = New Point(272, 97)
+            progress.BackColor = Color.Transparent
+            progress.ForeColor = Color.White
+            progress.Font = New Font("Segoe UI", 16, FontStyle.Bold)
+            progress.BackColor = Color.Transparent
+            progress.AutoSize = True
+            progress.Tag = team.GID
+            AddHandler lbl.Click, AddressOf Open_Team
+            panel.Controls.Add(progress)
+
 
             Dim x As Integer = 10
 
@@ -1045,7 +1088,10 @@ Public Class MainForm
         addTeamTaskForm.ID_GroupName = OG_ID_GroupName
         addTeamTaskForm.ShowDialog()
 
+        Get_Teams()
+        Load_Teams()
         Load_TeamTask(FlowTeamTasks.Tag)
+        Load_TeamChat()
 
     End Sub
 
@@ -1079,15 +1125,15 @@ Public Class MainForm
 
                     If reader("OwnerID") = OnlineUser.UID Then
 
-                        Guna2Button20.Visible = True
-                        Guna2CircleButton1.Visible = True
-                        Guna2Button22.Visible = True
+                        Guna2Button20.Enabled = True
+                        Guna2CircleButton1.Enabled = True
+                        Guna2Button22.Enabled = True
 
                     Else
 
-                        Guna2Button20.Visible = False
-                        Guna2CircleButton1.Visible = False
-                        Guna2Button22.Visible = False
+                        Guna2Button20.Enabled = False
+                        Guna2CircleButton1.Enabled = False
+                        Guna2Button22.Enabled = False
 
                     End If
 
@@ -1382,6 +1428,23 @@ Public Class MainForm
 
                     End Using
 
+                    Dim Msg As New Message
+                    Msg.Message = OnlineUser.UserName + " completed a Task!"
+                    Msg.Sender = OnlineUser.UID
+                    Msg.MessageDate = DateTime.Now()
+
+                    Using cmd As New MySqlCommand("INSERT INTO " + OG_ID_GroupName + "_chat (Message, Sender, MessageDate) VALUES (@Message, @Sender, @MessageDate)", conn)
+
+                        cmd.Parameters.AddWithValue("@Message", Msg.Message)
+                        cmd.Parameters.AddWithValue("@Sender", Msg.Sender)
+                        cmd.Parameters.AddWithValue("@MessageDate", Msg.MessageDate)
+
+                        cmd.ExecuteNonQuery()
+
+                    End Using
+
+                    sendMessage(Msg)
+
                     conn.Close()
 
                     MessageBox.Show("Task Successfully Completed.")
@@ -1399,7 +1462,7 @@ Public Class MainForm
 
                     End Using
 
-                    Using cmd As New MySqlCommand("UPDATE group_tbl SET Progress = TotalTask / CompletedTask * 100 WHERE ID_GroupName = @ID_GroupName", conn)
+                    Using cmd As New MySqlCommand("UPDATE group_tbl SET Progress = CompletedTask / TotalTask  * 100 WHERE ID_GroupName = @ID_GroupName", conn)
 
                         cmd.Parameters.AddWithValue("@ID_GroupName", OG_ID_GroupName)
                         cmd.ExecuteNonQuery()
@@ -1408,9 +1471,9 @@ Public Class MainForm
 
                     conn.Close()
 
-                    End Using
+                End Using
 
-                    Else
+            Else
 
                 chkbx.Checked = False
 
@@ -1419,6 +1482,9 @@ Public Class MainForm
         End If
 
         AddHandler chkbx.CheckedChanged, AddressOf complete_TeamTask
+
+        Get_Teams()
+        Load_Teams()
 
     End Sub
 
@@ -1523,8 +1589,16 @@ Public Class MainForm
         newMessage.Message = Guna2TextBox3.Text
         newMessage.MessageDate = DateTime.Now
 
+        sendMessage(newMessage)
+
+        Guna2TextBox3.Clear()
+
+    End Sub
+
+    Public Sub sendMessage(NewMessage As Message)
+
         Dim lineHeight As Integer = 1
-        Dim messageLength As Integer = newMessage.Message.Count
+        Dim messageLength As Integer = NewMessage.Message.Count
 
         While messageLength > 40
             messageLength -= 40
@@ -1532,7 +1606,7 @@ Public Class MainForm
         End While
 
         Dim chatBubble As New Guna2TextBox
-        chatBubble.Text = newMessage.Message
+        chatBubble.Text = NewMessage.Message
         chatBubble.ForeColor = Color.Black
         chatBubble.BackColor = Color.Transparent
         chatBubble.FillColor = Color.FromArgb(250, 187, 24)
@@ -1565,7 +1639,7 @@ Public Class MainForm
 
             Using cmd As New MySqlCommand("Select FirstName, ImageData From user_tbl WHERE UID = @UID", conn)
 
-                cmd.Parameters.AddWithValue("@UID", newMessage.Sender)
+                cmd.Parameters.AddWithValue("@UID", NewMessage.Sender)
 
                 Dim reader As MySqlDataReader = cmd.ExecuteReader()
 
@@ -1581,7 +1655,7 @@ Public Class MainForm
                 End While
 
                 Dim label As New Label
-                label.Text = newMessage.MessageDate.ToString("F")
+                label.Text = NewMessage.MessageDate.ToString("F")
                 label.TextAlign = ContentAlignment.MiddleCenter
                 label.Width = 430
                 label.ForeColor = Color.Gray
@@ -1592,8 +1666,6 @@ Public Class MainForm
             conn.Close()
 
         End Using
-
-        Guna2TextBox3.Clear()
 
     End Sub
 

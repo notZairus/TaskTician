@@ -86,9 +86,9 @@ Partial Class ShowMutualsForm
         Label2.Font = New Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(133, 9)
         Label2.Name = "Label2"
-        Label2.Size = New Size(176, 54)
+        Label2.Size = New Size(160, 54)
         Label2.TabIndex = 36
-        Label2.Text = "Mutuals"
+        Label2.Text = "Friends"
         ' 
         ' ShowMutualsForm
         ' 

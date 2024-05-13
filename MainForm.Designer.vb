@@ -26,8 +26,8 @@ Partial Class MainForm
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -37,18 +37,18 @@ Partial Class MainForm
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(MainForm))
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -59,43 +59,41 @@ Partial Class MainForm
         Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Label1 = New Label()
         Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
@@ -108,7 +106,6 @@ Partial Class MainForm
         Guna2Button15 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button14 = New Guna.UI2.WinForms.Guna2Button()
         Label6 = New Label()
-        Guna2Button13 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button11 = New Guna.UI2.WinForms.Guna2Button()
         Label5 = New Label()
@@ -226,18 +223,17 @@ Partial Class MainForm
         Guna2Panel1.Controls.Add(Label12)
         Guna2Panel1.Controls.Add(Label13)
         Guna2Panel1.Controls.Add(friendoptionspanel)
-        Guna2Panel1.Controls.Add(Guna2Button13)
         Guna2Panel1.Controls.Add(Guna2Button12)
         Guna2Panel1.Controls.Add(Guna2Button11)
         Guna2Panel1.Controls.Add(Label5)
         Guna2Panel1.Controls.Add(Guna2CirclePictureBox1)
         Guna2Panel1.Controls.Add(Label1)
         Guna2Panel1.Controls.Add(Guna2Button1)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges16
+        Guna2Panel1.CustomizableEdges = CustomizableEdges14
         Guna2Panel1.Dock = DockStyle.Left
         Guna2Panel1.Location = New Point(0, 0)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges15
         Guna2Panel1.ShadowDecoration.Enabled = True
         Guna2Panel1.ShadowDecoration.Shadow = New Padding(0, 0, 5, 0)
         Guna2Panel1.Size = New Size(283, 733)
@@ -284,12 +280,10 @@ Partial Class MainForm
         friendoptionspanel.Controls.Add(Guna2Button15)
         friendoptionspanel.Controls.Add(Guna2Button14)
         friendoptionspanel.Controls.Add(Label6)
-        friendoptionspanel.Enabled = False
         friendoptionspanel.Location = New Point(1, 391)
         friendoptionspanel.Name = "friendoptionspanel"
         friendoptionspanel.Size = New Size(280, 222)
         friendoptionspanel.TabIndex = 19
-        friendoptionspanel.Visible = False
         ' 
         ' Guna2Button16
         ' 
@@ -307,7 +301,7 @@ Partial Class MainForm
         Guna2Button16.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         Guna2Button16.Size = New Size(243, 38)
         Guna2Button16.TabIndex = 48
-        Guna2Button16.Text = "Delete Mutuals"
+        Guna2Button16.Text = "Remove Friends"
         Guna2Button16.TextOffset = New Point(0, -2)
         ' 
         ' Guna2Button15
@@ -326,7 +320,7 @@ Partial Class MainForm
         Guna2Button15.ShadowDecoration.CustomizableEdges = CustomizableEdges7
         Guna2Button15.Size = New Size(243, 38)
         Guna2Button15.TabIndex = 47
-        Guna2Button15.Text = "Add Mutuals"
+        Guna2Button15.Text = "Add Friends"
         Guna2Button15.TextOffset = New Point(0, -2)
         ' 
         ' Guna2Button14
@@ -345,7 +339,7 @@ Partial Class MainForm
         Guna2Button14.ShadowDecoration.CustomizableEdges = CustomizableEdges9
         Guna2Button14.Size = New Size(243, 38)
         Guna2Button14.TabIndex = 46
-        Guna2Button14.Text = "Show Mutuals"
+        Guna2Button14.Text = "Show Friends"
         Guna2Button14.TextOffset = New Point(0, -2)
         ' 
         ' Label6
@@ -353,39 +347,11 @@ Partial Class MainForm
         Label6.AutoSize = True
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(30, 5)
+        Label6.Location = New Point(41, 5)
         Label6.Name = "Label6"
-        Label6.Size = New Size(217, 37)
+        Label6.Size = New Size(206, 37)
         Label6.TabIndex = 45
-        Label6.Text = "Mutual Options"
-        ' 
-        ' Guna2Button13
-        ' 
-        Guna2Button13.BackColor = Color.Transparent
-        Guna2Button13.BorderRadius = 15
-        Guna2Button13.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        Guna2Button13.CheckedState.ForeColor = Color.White
-        CustomizableEdges10.BottomLeft = False
-        CustomizableEdges10.TopLeft = False
-        Guna2Button13.CustomizableEdges = CustomizableEdges10
-        Guna2Button13.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button13.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button13.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button13.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button13.FillColor = Color.Transparent
-        Guna2Button13.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button13.ForeColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        Guna2Button13.Image = My.Resources.Resources.records1
-        Guna2Button13.ImageAlign = HorizontalAlignment.Left
-        Guna2Button13.ImageOffset = New Point(40, 0)
-        Guna2Button13.ImageSize = New Size(35, 35)
-        Guna2Button13.Location = New Point(-1, 277)
-        Guna2Button13.Name = "Guna2Button13"
-        Guna2Button13.ShadowDecoration.CustomizableEdges = CustomizableEdges11
-        Guna2Button13.Size = New Size(259, 60)
-        Guna2Button13.TabIndex = 18
-        Guna2Button13.Text = "Record"
-        Guna2Button13.TextOffset = New Point(40, 0)
+        Label6.Text = "Friend Options"
         ' 
         ' Guna2Button12
         ' 
@@ -393,9 +359,9 @@ Partial Class MainForm
         Guna2Button12.BorderRadius = 15
         Guna2Button12.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button12.CheckedState.ForeColor = Color.White
-        CustomizableEdges12.BottomLeft = False
-        CustomizableEdges12.TopLeft = False
-        Guna2Button12.CustomizableEdges = CustomizableEdges12
+        CustomizableEdges10.BottomLeft = False
+        CustomizableEdges10.TopLeft = False
+        Guna2Button12.CustomizableEdges = CustomizableEdges10
         Guna2Button12.DisabledState.BorderColor = Color.DarkGray
         Guna2Button12.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button12.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -407,9 +373,9 @@ Partial Class MainForm
         Guna2Button12.ImageAlign = HorizontalAlignment.Left
         Guna2Button12.ImageOffset = New Point(40, 0)
         Guna2Button12.ImageSize = New Size(38, 38)
-        Guna2Button12.Location = New Point(-1, 216)
+        Guna2Button12.Location = New Point(-1, 232)
         Guna2Button12.Name = "Guna2Button12"
-        Guna2Button12.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        Guna2Button12.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         Guna2Button12.Size = New Size(259, 60)
         Guna2Button12.TabIndex = 17
         Guna2Button12.Text = "Teams"
@@ -422,9 +388,9 @@ Partial Class MainForm
         Guna2Button11.Checked = True
         Guna2Button11.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button11.CheckedState.ForeColor = Color.White
-        CustomizableEdges14.BottomLeft = False
-        CustomizableEdges14.TopLeft = False
-        Guna2Button11.CustomizableEdges = CustomizableEdges14
+        CustomizableEdges12.BottomLeft = False
+        CustomizableEdges12.TopLeft = False
+        Guna2Button11.CustomizableEdges = CustomizableEdges12
         Guna2Button11.DisabledState.BorderColor = Color.DarkGray
         Guna2Button11.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button11.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -436,9 +402,9 @@ Partial Class MainForm
         Guna2Button11.ImageAlign = HorizontalAlignment.Left
         Guna2Button11.ImageOffset = New Point(40, 0)
         Guna2Button11.ImageSize = New Size(35, 35)
-        Guna2Button11.Location = New Point(-1, 156)
+        Guna2Button11.Location = New Point(-1, 172)
         Guna2Button11.Name = "Guna2Button11"
-        Guna2Button11.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        Guna2Button11.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         Guna2Button11.Size = New Size(259, 60)
         Guna2Button11.TabIndex = 16
         Guna2Button11.Text = "Personal"
@@ -487,9 +453,9 @@ Partial Class MainForm
         Guna2Button10.BorderRadius = 20
         Guna2Button10.CheckedState.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button10.CheckedState.ForeColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        CustomizableEdges18.TopLeft = False
-        CustomizableEdges18.TopRight = False
-        Guna2Button10.CustomizableEdges = CustomizableEdges18
+        CustomizableEdges16.TopLeft = False
+        CustomizableEdges16.TopRight = False
+        Guna2Button10.CustomizableEdges = CustomizableEdges16
         Guna2Button10.DisabledState.BorderColor = Color.DarkGray
         Guna2Button10.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button10.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -499,7 +465,7 @@ Partial Class MainForm
         Guna2Button10.ForeColor = Color.White
         Guna2Button10.Location = New Point(504, 256)
         Guna2Button10.Name = "Guna2Button10"
-        Guna2Button10.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        Guna2Button10.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         Guna2Button10.Size = New Size(400, 52)
         Guna2Button10.TabIndex = 42
         Guna2Button10.Text = "EDIT QUOTE"
@@ -509,7 +475,7 @@ Partial Class MainForm
         Guna2TextBox2.AutoValidate = AutoValidate.Disable
         Guna2TextBox2.BackColor = Color.Transparent
         Guna2TextBox2.BorderRadius = 20
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges20
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges18
         Guna2TextBox2.DefaultText = "Kung kaya ng iba, ipagawa mo sa kanila hahhahaha"
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -527,7 +493,7 @@ Partial Class MainForm
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Guna2TextBox2.Size = New Size(400, 180)
         Guna2TextBox2.TabIndex = 41
         Guna2TextBox2.TextAlign = HorizontalAlignment.Center
@@ -536,7 +502,7 @@ Partial Class MainForm
         ' 
         Guna2TextBox1.AutoValidate = AutoValidate.Disable
         Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges22
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges20
         Guna2TextBox1.DefaultText = "Kung kaya ng iba, ipagawa mo sa kanila hahhahaha"
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -555,7 +521,7 @@ Partial Class MainForm
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.ReadOnly = True
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         Guna2TextBox1.Size = New Size(139, 41)
         Guna2TextBox1.TabIndex = 34
         Guna2TextBox1.TextAlign = HorizontalAlignment.Center
@@ -584,11 +550,11 @@ Partial Class MainForm
         Guna2Panel3.Controls.Add(Guna2Button4)
         Guna2Panel3.Controls.Add(Guna2Button5)
         Guna2Panel3.Controls.Add(Guna2Button6)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges36
+        Guna2Panel3.CustomizableEdges = CustomizableEdges34
         Guna2Panel3.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Panel3.Location = New Point(41, 90)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges37
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges35
         Guna2Panel3.Size = New Size(419, 618)
         Guna2Panel3.TabIndex = 39
         ' 
@@ -616,7 +582,7 @@ Partial Class MainForm
         Guna2Button9.BorderRadius = 20
         Guna2Button9.CheckedState.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button9.CheckedState.ForeColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        Guna2Button9.CustomizableEdges = CustomizableEdges24
+        Guna2Button9.CustomizableEdges = CustomizableEdges22
         Guna2Button9.DisabledState.BorderColor = Color.DarkGray
         Guna2Button9.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button9.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -626,7 +592,7 @@ Partial Class MainForm
         Guna2Button9.ForeColor = Color.White
         Guna2Button9.Location = New Point(10, 552)
         Guna2Button9.Name = "Guna2Button9"
-        Guna2Button9.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        Guna2Button9.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         Guna2Button9.Size = New Size(400, 60)
         Guna2Button9.TabIndex = 30
         Guna2Button9.Text = "ADD TASK"
@@ -639,7 +605,7 @@ Partial Class MainForm
         Guna2Button2.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button2.CheckedState.Font = New Font("Segoe UI Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button2.CheckedState.ForeColor = Color.White
-        Guna2Button2.CustomizableEdges = CustomizableEdges26
+        Guna2Button2.CustomizableEdges = CustomizableEdges24
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -649,7 +615,7 @@ Partial Class MainForm
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(3, 3)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         Guna2Button2.Size = New Size(63, 36)
         Guna2Button2.TabIndex = 17
         Guna2Button2.Tag = ""
@@ -662,7 +628,7 @@ Partial Class MainForm
         Guna2Button3.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button3.CheckedState.Font = New Font("Segoe UI Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.CheckedState.ForeColor = Color.White
-        Guna2Button3.CustomizableEdges = CustomizableEdges28
+        Guna2Button3.CustomizableEdges = CustomizableEdges26
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -672,7 +638,7 @@ Partial Class MainForm
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(67, 3)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges27
         Guna2Button3.Size = New Size(86, 36)
         Guna2Button3.TabIndex = 18
         Guna2Button3.Text = "Home"
@@ -684,7 +650,7 @@ Partial Class MainForm
         Guna2Button4.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button4.CheckedState.Font = New Font("Segoe UI Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button4.CheckedState.ForeColor = Color.White
-        Guna2Button4.CustomizableEdges = CustomizableEdges30
+        Guna2Button4.CustomizableEdges = CustomizableEdges28
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -694,7 +660,7 @@ Partial Class MainForm
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(154, 3)
         Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         Guna2Button4.Size = New Size(86, 36)
         Guna2Button4.TabIndex = 19
         Guna2Button4.Text = "School"
@@ -706,7 +672,7 @@ Partial Class MainForm
         Guna2Button5.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button5.CheckedState.Font = New Font("Segoe UI Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button5.CheckedState.ForeColor = Color.White
-        Guna2Button5.CustomizableEdges = CustomizableEdges32
+        Guna2Button5.CustomizableEdges = CustomizableEdges30
         Guna2Button5.DisabledState.BorderColor = Color.DarkGray
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -716,7 +682,7 @@ Partial Class MainForm
         Guna2Button5.ForeColor = Color.White
         Guna2Button5.Location = New Point(241, 3)
         Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges33
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges31
         Guna2Button5.Size = New Size(86, 36)
         Guna2Button5.TabIndex = 20
         Guna2Button5.Text = "Fitness"
@@ -728,7 +694,7 @@ Partial Class MainForm
         Guna2Button6.CheckedState.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button6.CheckedState.Font = New Font("Segoe UI Black", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button6.CheckedState.ForeColor = Color.White
-        Guna2Button6.CustomizableEdges = CustomizableEdges34
+        Guna2Button6.CustomizableEdges = CustomizableEdges32
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -738,7 +704,7 @@ Partial Class MainForm
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(327, 3)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges35
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges33
         Guna2Button6.Size = New Size(86, 36)
         Guna2Button6.TabIndex = 21
         Guna2Button6.Text = "Recreation"
@@ -750,11 +716,11 @@ Partial Class MainForm
         Guna2Panel2.Controls.Add(FlowLayoutPanel2)
         Guna2Panel2.Controls.Add(Guna2Button7)
         Guna2Panel2.Controls.Add(Guna2Button8)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges42
+        Guna2Panel2.CustomizableEdges = CustomizableEdges40
         Guna2Panel2.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Panel2.Location = New Point(504, 395)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges41
         Guna2Panel2.Size = New Size(400, 313)
         Guna2Panel2.TabIndex = 38
         ' 
@@ -773,7 +739,7 @@ Partial Class MainForm
         Guna2Button7.BorderRadius = 10
         Guna2Button7.CheckedState.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button7.CheckedState.ForeColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        Guna2Button7.CustomizableEdges = CustomizableEdges38
+        Guna2Button7.CustomizableEdges = CustomizableEdges36
         Guna2Button7.DisabledState.BorderColor = Color.DarkGray
         Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -783,7 +749,7 @@ Partial Class MainForm
         Guna2Button7.ForeColor = Color.Black
         Guna2Button7.Location = New Point(35, 3)
         Guna2Button7.Name = "Guna2Button7"
-        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges39
+        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges37
         Guna2Button7.Size = New Size(156, 45)
         Guna2Button7.TabIndex = 26
         Guna2Button7.Text = "ADD DAILY TASK"
@@ -794,7 +760,7 @@ Partial Class MainForm
         Guna2Button8.BorderRadius = 10
         Guna2Button8.CheckedState.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button8.CheckedState.ForeColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
-        Guna2Button8.CustomizableEdges = CustomizableEdges40
+        Guna2Button8.CustomizableEdges = CustomizableEdges38
         Guna2Button8.DisabledState.BorderColor = Color.DarkGray
         Guna2Button8.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button8.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -804,7 +770,7 @@ Partial Class MainForm
         Guna2Button8.ForeColor = Color.Black
         Guna2Button8.Location = New Point(197, 3)
         Guna2Button8.Name = "Guna2Button8"
-        Guna2Button8.ShadowDecoration.CustomizableEdges = CustomizableEdges41
+        Guna2Button8.ShadowDecoration.CustomizableEdges = CustomizableEdges39
         Guna2Button8.Size = New Size(172, 45)
         Guna2Button8.TabIndex = 27
         Guna2Button8.Text = "DELETE DAILY TASK"
@@ -848,11 +814,11 @@ Partial Class MainForm
         chatpnl.Controls.Add(Guna2Button21)
         chatpnl.Controls.Add(Guna2TextBox3)
         chatpnl.Controls.Add(Guna2Panel9)
-        chatpnl.CustomizableEdges = CustomizableEdges50
+        chatpnl.CustomizableEdges = CustomizableEdges48
         chatpnl.Enabled = False
         chatpnl.Location = New Point(436, 90)
         chatpnl.Name = "chatpnl"
-        chatpnl.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        chatpnl.ShadowDecoration.CustomizableEdges = CustomizableEdges49
         chatpnl.Size = New Size(504, 631)
         chatpnl.TabIndex = 42
         chatpnl.Visible = False
@@ -864,7 +830,7 @@ Partial Class MainForm
         Guna2Button21.CheckedState.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button21.CheckedState.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button21.CheckedState.ForeColor = Color.Black
-        Guna2Button21.CustomizableEdges = CustomizableEdges44
+        Guna2Button21.CustomizableEdges = CustomizableEdges42
         Guna2Button21.DisabledState.BorderColor = Color.DarkGray
         Guna2Button21.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button21.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -874,7 +840,7 @@ Partial Class MainForm
         Guna2Button21.ForeColor = Color.White
         Guna2Button21.Location = New Point(401, 546)
         Guna2Button21.Name = "Guna2Button21"
-        Guna2Button21.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        Guna2Button21.ShadowDecoration.CustomizableEdges = CustomizableEdges43
         Guna2Button21.Size = New Size(84, 46)
         Guna2Button21.TabIndex = 47
         Guna2Button21.Text = "Send"
@@ -883,7 +849,7 @@ Partial Class MainForm
         ' Guna2TextBox3
         ' 
         Guna2TextBox3.BorderRadius = 20
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges46
+        Guna2TextBox3.CustomizableEdges = CustomizableEdges44
         Guna2TextBox3.DefaultText = ""
         Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -901,7 +867,7 @@ Partial Class MainForm
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = "Send a message"
         Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
         Guna2TextBox3.Size = New Size(360, 64)
         Guna2TextBox3.TabIndex = 46
         ' 
@@ -911,11 +877,11 @@ Partial Class MainForm
         Guna2Panel9.BorderRadius = 20
         Guna2Panel9.Controls.Add(Label10)
         Guna2Panel9.Controls.Add(FlowLayoutPanel4)
-        Guna2Panel9.CustomizableEdges = CustomizableEdges48
+        Guna2Panel9.CustomizableEdges = CustomizableEdges46
         Guna2Panel9.FillColor = Color.Transparent
         Guna2Panel9.Location = New Point(18, 10)
         Guna2Panel9.Name = "Guna2Panel9"
-        Guna2Panel9.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Guna2Panel9.ShadowDecoration.CustomizableEdges = CustomizableEdges47
         Guna2Panel9.Size = New Size(471, 522)
         Guna2Panel9.TabIndex = 45
         ' 
@@ -963,7 +929,7 @@ Partial Class MainForm
         Guna2CircleButton1.ForeColor = Color.White
         Guna2CircleButton1.Location = New Point(403, 524)
         Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CircleButton1.Size = New Size(85, 85)
         Guna2CircleButton1.TabIndex = 43
@@ -988,18 +954,18 @@ Partial Class MainForm
         Guna2Panel7.Controls.Add(Guna2Button20)
         Guna2Panel7.Controls.Add(Label8)
         Guna2Panel7.Controls.Add(FlowTeamTasks)
-        Guna2Panel7.CustomizableEdges = CustomizableEdges57
+        Guna2Panel7.CustomizableEdges = CustomizableEdges55
         Guna2Panel7.FillColor = Color.Transparent
         Guna2Panel7.Location = New Point(20, 10)
         Guna2Panel7.Name = "Guna2Panel7"
-        Guna2Panel7.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        Guna2Panel7.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         Guna2Panel7.Size = New Size(459, 450)
         Guna2Panel7.TabIndex = 42
         ' 
         ' Guna2Button22
         ' 
         Guna2Button22.BorderRadius = 10
-        Guna2Button22.CustomizableEdges = CustomizableEdges53
+        Guna2Button22.CustomizableEdges = CustomizableEdges51
         Guna2Button22.DisabledState.BorderColor = Color.DarkGray
         Guna2Button22.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button22.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1007,19 +973,18 @@ Partial Class MainForm
         Guna2Button22.FillColor = Color.FromArgb(CByte(250), CByte(187), CByte(24))
         Guna2Button22.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button22.ForeColor = Color.Black
-        Guna2Button22.Location = New Point(257, 10)
+        Guna2Button22.Location = New Point(367, 61)
         Guna2Button22.Name = "Guna2Button22"
-        Guna2Button22.ShadowDecoration.CustomizableEdges = CustomizableEdges54
-        Guna2Button22.Size = New Size(78, 45)
+        Guna2Button22.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2Button22.Size = New Size(78, 46)
         Guna2Button22.TabIndex = 47
         Guna2Button22.Text = "Delete Team"
         Guna2Button22.TextOffset = New Point(0, -2)
-        Guna2Button22.Visible = False
         ' 
         ' Guna2Button20
         ' 
         Guna2Button20.BorderRadius = 20
-        Guna2Button20.CustomizableEdges = CustomizableEdges55
+        Guna2Button20.CustomizableEdges = CustomizableEdges53
         Guna2Button20.DisabledState.BorderColor = Color.DarkGray
         Guna2Button20.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button20.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1027,14 +992,13 @@ Partial Class MainForm
         Guna2Button20.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Button20.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button20.ForeColor = Color.White
-        Guna2Button20.Location = New Point(341, 9)
+        Guna2Button20.Location = New Point(23, 61)
         Guna2Button20.Name = "Guna2Button20"
-        Guna2Button20.ShadowDecoration.CustomizableEdges = CustomizableEdges56
-        Guna2Button20.Size = New Size(108, 46)
+        Guna2Button20.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2Button20.Size = New Size(330, 46)
         Guna2Button20.TabIndex = 41
         Guna2Button20.Text = "Add Task"
         Guna2Button20.TextOffset = New Point(0, -2)
-        Guna2Button20.Visible = False
         ' 
         ' Label8
         ' 
@@ -1051,20 +1015,20 @@ Partial Class MainForm
         ' 
         FlowTeamTasks.AutoScroll = True
         FlowTeamTasks.BackColor = Color.Transparent
-        FlowTeamTasks.Location = New Point(6, 72)
+        FlowTeamTasks.Location = New Point(6, 120)
         FlowTeamTasks.Name = "FlowTeamTasks"
-        FlowTeamTasks.Size = New Size(447, 372)
+        FlowTeamTasks.Size = New Size(447, 324)
         FlowTeamTasks.TabIndex = 39
         ' 
         ' Guna2Panel5
         ' 
         Guna2Panel5.BorderRadius = 20
         Guna2Panel5.Controls.Add(FlowLayoutPanel3)
-        Guna2Panel5.CustomizableEdges = CustomizableEdges59
+        Guna2Panel5.CustomizableEdges = CustomizableEdges57
         Guna2Panel5.FillColor = Color.FromArgb(CByte(39), CByte(39), CByte(39))
         Guna2Panel5.Location = New Point(20, 524)
         Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         Guna2Panel5.Size = New Size(375, 85)
         Guna2Panel5.TabIndex = 41
         ' 
@@ -1082,11 +1046,11 @@ Partial Class MainForm
         Guna2Panel8.BorderRadius = 25
         Guna2Panel8.Controls.Add(Guna2Button19)
         Guna2Panel8.Controls.Add(Guna2Button18)
-        Guna2Panel8.CustomizableEdges = CustomizableEdges65
+        Guna2Panel8.CustomizableEdges = CustomizableEdges63
         Guna2Panel8.FillColor = Color.Gainsboro
         Guna2Panel8.Location = New Point(449, 19)
         Guna2Panel8.Name = "Guna2Panel8"
-        Guna2Panel8.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        Guna2Panel8.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         Guna2Panel8.Size = New Size(459, 65)
         Guna2Panel8.TabIndex = 40
         ' 
@@ -1097,7 +1061,7 @@ Partial Class MainForm
         Guna2Button19.CheckedState.FillColor = Color.Gainsboro
         Guna2Button19.CheckedState.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button19.CheckedState.ForeColor = Color.Black
-        Guna2Button19.CustomizableEdges = CustomizableEdges61
+        Guna2Button19.CustomizableEdges = CustomizableEdges59
         Guna2Button19.DisabledState.BorderColor = Color.DarkGray
         Guna2Button19.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button19.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1107,7 +1071,7 @@ Partial Class MainForm
         Guna2Button19.ForeColor = Color.White
         Guna2Button19.Location = New Point(244, 5)
         Guna2Button19.Name = "Guna2Button19"
-        Guna2Button19.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        Guna2Button19.ShadowDecoration.CustomizableEdges = CustomizableEdges60
         Guna2Button19.Size = New Size(208, 54)
         Guna2Button19.TabIndex = 43
         Guna2Button19.Text = "CHAT"
@@ -1121,7 +1085,7 @@ Partial Class MainForm
         Guna2Button18.CheckedState.FillColor = Color.Gainsboro
         Guna2Button18.CheckedState.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button18.CheckedState.ForeColor = Color.Black
-        Guna2Button18.CustomizableEdges = CustomizableEdges63
+        Guna2Button18.CustomizableEdges = CustomizableEdges61
         Guna2Button18.DisabledState.BorderColor = Color.DarkGray
         Guna2Button18.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button18.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1131,7 +1095,7 @@ Partial Class MainForm
         Guna2Button18.ForeColor = Color.White
         Guna2Button18.Location = New Point(7, 5)
         Guna2Button18.Name = "Guna2Button18"
-        Guna2Button18.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        Guna2Button18.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         Guna2Button18.Size = New Size(208, 54)
         Guna2Button18.TabIndex = 42
         Guna2Button18.Text = "TASK"
@@ -1142,11 +1106,11 @@ Partial Class MainForm
         Guna2Panel4.Controls.Add(Guna2Panel6)
         Guna2Panel4.Controls.Add(Guna2Button17)
         Guna2Panel4.Controls.Add(Label7)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges71
+        Guna2Panel4.CustomizableEdges = CustomizableEdges69
         Guna2Panel4.FillColor = Color.White
         Guna2Panel4.Location = New Point(21, 0)
         Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges70
         Guna2Panel4.Size = New Size(413, 731)
         Guna2Panel4.TabIndex = 0
         ' 
@@ -1155,11 +1119,11 @@ Partial Class MainForm
         Guna2Panel6.BackColor = Color.Transparent
         Guna2Panel6.BorderRadius = 20
         Guna2Panel6.Controls.Add(FlowTeams)
-        Guna2Panel6.CustomizableEdges = CustomizableEdges67
+        Guna2Panel6.CustomizableEdges = CustomizableEdges65
         Guna2Panel6.FillColor = Color.Transparent
         Guna2Panel6.Location = New Point(15, 180)
         Guna2Panel6.Name = "Guna2Panel6"
-        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges66
         Guna2Panel6.Size = New Size(374, 511)
         Guna2Panel6.TabIndex = 39
         ' 
@@ -1176,7 +1140,7 @@ Partial Class MainForm
         ' 
         Guna2Button17.BackColor = Color.Transparent
         Guna2Button17.BorderRadius = 20
-        Guna2Button17.CustomizableEdges = CustomizableEdges69
+        Guna2Button17.CustomizableEdges = CustomizableEdges67
         Guna2Button17.DisabledState.BorderColor = Color.DarkGray
         Guna2Button17.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button17.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1186,7 +1150,7 @@ Partial Class MainForm
         Guna2Button17.ForeColor = Color.White
         Guna2Button17.Location = New Point(16, 90)
         Guna2Button17.Name = "Guna2Button17"
-        Guna2Button17.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        Guna2Button17.ShadowDecoration.CustomizableEdges = CustomizableEdges68
         Guna2Button17.Size = New Size(358, 58)
         Guna2Button17.TabIndex = 38
         Guna2Button17.Text = "Create New Team Project"
@@ -1252,7 +1216,6 @@ Partial Class MainForm
     Friend WithEvents Label5 As Label
     Friend WithEvents Guna2Button11 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button12 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button13 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents PersonalPanel As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Guna2Button10 As Guna.UI2.WinForms.Guna2Button
