@@ -1548,6 +1548,8 @@ Public Class MainForm
         End Using
 
         Load_TeamMembers(clicked.Parent.Tag)
+        Get_Teams()
+        Load_Teams()
 
     End Sub
 
@@ -1556,6 +1558,8 @@ Public Class MainForm
         Dim addMemForm As New AddMemForm
         addMemForm.ShowDialog()
 
+        Get_Teams()
+        Load_Teams()
         Load_TeamMembers(Guna2CircleButton1.Tag)
 
     End Sub

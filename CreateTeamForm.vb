@@ -104,6 +104,13 @@ Public Class CreateTeamForm
 
     Private Sub Guna2Button17_Click(sender As Object, e As EventArgs) Handles Guna2Button17.Click
 
+        If Guna2TextBox1.Text = "" Then
+
+            MessageBox.Show("Set the group name.")
+            Return
+
+        End If
+
         Using conn As New MySqlConnection(Connections.teamConnString)
 
             Dim qry As String = "CREATE TABLE " + OnlineUser.UserName + Guna2TextBox1.Text + "_chat (

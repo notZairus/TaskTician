@@ -202,7 +202,7 @@ Partial Class AddTaskForm
         Guna2TextBox2.Multiline = True
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderText = "Task Name"
+        Guna2TextBox2.PlaceholderText = "Task Information"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2TextBox2.Size = New Size(361, 191)

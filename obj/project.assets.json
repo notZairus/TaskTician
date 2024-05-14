@@ -1925,11 +1925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\VB.NET\\TaskTician\\CSC3_TaskManagementApp.vbproj",
+      "projectUniqueName": "C:\\Users\\dell\\Desktop\\TaskTician\\CSC3_TaskManagementApp.vbproj",
       "projectName": "CSC3_TaskManagementApp",
-      "projectPath": "C:\\Users\\dell\\Desktop\\VB.NET\\TaskTician\\CSC3_TaskManagementApp.vbproj",
+      "projectPath": "C:\\Users\\dell\\Desktop\\TaskTician\\CSC3_TaskManagementApp.vbproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\VB.NET\\TaskTician\\obj\\",
+      "outputPath": "C:\\Users\\dell\\Desktop\\TaskTician\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

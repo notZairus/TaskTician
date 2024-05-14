@@ -7,6 +7,11 @@ Public Class AddTaskForm
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
 
+        If Guna2TextBox1.Text = "" Then
+            MessageBox.Show("Set the task name")
+            Return
+        End If
+
         If Guna2DateTimePicker1.Value.Date < Date.Today Then
 
             MessageBox.Show("Set a proper Due Date.")

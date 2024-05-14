@@ -1,4 +1,5 @@
-﻿Imports Guna.UI2.WinForms
+﻿Imports System.IO.Pipelines
+Imports Guna.UI2.WinForms
 Imports MySql.Data.MySqlClient
 
 Public Class AddMutualsForm
@@ -7,6 +8,13 @@ Public Class AddMutualsForm
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+
+        If Guna2TextBox1.Text = OnlineUser.UserName.ToLower() Then
+
+            MessageBox.Show("You want to be friend with yourself? really?")
+            Return
+
+        End If
 
         If Guna2TextBox1.Text <> OnlineUser.UserName Then
 
@@ -22,6 +30,13 @@ Public Class AddMutualsForm
                     cmd.Parameters.AddWithValue("@UN", Guna2TextBox1.Text)
 
                     Dim reader As MySqlDataReader = cmd.ExecuteReader()
+
+                    If reader.HasRows = False Then
+
+                        MessageBox.Show("Account not found")
+                        Return
+
+                    End If
 
                     While reader.Read()
 

@@ -17,6 +17,34 @@ Public Class RegistrationForm
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
 
+        If Guna2TextBox4.Text = "" Or Guna2TextBox5.Text = "" Or Guna2TextBox6.Text = "" Or Guna2TextBox1.Text = "" Then
+
+            MessageBox.Show("Fill out the Registration form")
+            Return
+
+        End If
+
+        If Guna2TextBox3.Text = "" Then
+
+            MessageBox.Show("Confirm your password")
+            Return
+
+        End If
+
+        If Guna2TextBox2.Text.Length < 7 Or Guna2TextBox3.Text.Length < 7 Then
+
+            MessageBox.Show("Password must be longer than 7 letters")
+            Return
+
+        End If
+
+        If Guna2TextBox2.Text <> Guna2TextBox3.Text Then
+
+            MessageBox.Show("The password doesn't match")
+            Return
+
+        End If
+
         Dim imgData As Byte()
 
         Using mem As New MemoryStream()
